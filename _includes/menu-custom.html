@@ -1,3 +1,11 @@
+<p class="view">
+
 {% if site.linkedin_username %}
-<a href="https://www.linkedin.com/in/{{ site.linkedin_username }}"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+<a href="https://www.linkedin.com/in/{{ site.linkedin_username }}"><i class="fa-brands fa-linkedin"></i> LinkedIn</a><br>
 {% endif %}
+
+{% if site.github_username %}
+<a href="https://github.com/{{ site.github_username }}"><i class="fa-brands fa-github"></i> GitHub</a><br>
+{% endif %}
+
+</p>
