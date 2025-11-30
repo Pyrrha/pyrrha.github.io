@@ -1,1 +1,0 @@
-This website makes some visibility for my personal projects.
