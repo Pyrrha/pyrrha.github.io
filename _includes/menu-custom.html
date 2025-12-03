@@ -1,5 +1,9 @@
 <p class="view">
 
+{% if site.geolocation %}
+<i class="fa-solid fa-location-dot"></i> {{ site.geolocation }}<br>
+{% endif %}
+
 {% if site.linkedin_username %}
 <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}"><i class="fa-brands fa-linkedin"></i> LinkedIn</a><br>
 {% endif %}

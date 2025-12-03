@@ -1,3 +1,5 @@
+
+
 <h3>Certifications</h3>
 <p>
     <a href="https://www.credly.com/badges/f594457a-f0c6-4356-b2a4-9ff5c3a45a62/public_url" target="_blank"><img src="https://images.credly.com/size/220x220/images/cd038261-9d1c-4792-bc62-3a3b5bda175c/blob" alt="Terraform Associate" width="100" height="100"></a>
