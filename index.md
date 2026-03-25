@@ -1,5 +1,7 @@
 <h1>Pilot student</h1>
 
+<hr>
+
 <h1>Former DevOps Engineer</h1>
 
 <p>7 years in tech industry, mainly deploying cloud infrastructures.</p>
@@ -18,6 +20,8 @@
 
 <p>Helm chart for Cal.com application, using a PostgreSQL database.</p>
 
+<hr>
+
 <h2>Certifications</h2>
 <p>
     <a href="https://www.credly.com/badges/f594457a-f0c6-4356-b2a4-9ff5c3a45a62/public_url" target="_blank"><img src="https://images.credly.com/size/220x220/images/cd038261-9d1c-4792-bc62-3a3b5bda175c/blob" alt="Terraform Associate" width="100" height="100"></a>
@@ -26,6 +30,8 @@
     <a href="https://www.credly.com/badges/599669cb-a7b6-4e0b-aebc-384c1efbb090/public_url" target="_blank"><img src="https://images.credly.com/size/220x220/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png" alt="AWS Cloud Practitioner" width="100" height="100"></a>
 </p>
 
+<hr>
+
 <h2>Homelab</h2>
 
-Redaction in progress...
+<p>Redaction in progress...</p>
