@@ -6,10 +6,13 @@
 
 <h3>Projects</h3>
 
-<ul>
-    <li><a href="https://github.com/Pyrrha/home-cluster" target="_blank">Home cluster</a>: applications deployed on my Kubernetes home cluster, using ArgoCD and formerly SSO. <img src="https://img.shields.io/github/commit-activity/t/Pyrrha/home-cluster?style=flat-square" alt="GitHub commit activity" style="vertical-align: middle;"></li></li>
-    <li><a href="https://github.com/Pyrrha/calcom-helm" target="_blank">Calcom helm chart</a>: helm chart for Cal.com application. <img src="https://img.shields.io/github/stars/Pyrrha/calcom-helm?style=flat-square" alt="GitHub stars" style="vertical-align: middle;"> <img src="https://img.shields.io/github/commit-activity/t/Pyrrha/calcom-helm?style=flat-square" alt="GitHub commit activity" style="vertical-align: middle;"></li>
-</ul>
+<h4>Home cluster <img src="https://img.shields.io/github/commit-activity/t/Pyrrha/home-cluster?style=flat-square" alt="GitHub commit activity" style="vertical-align: middle;"></h4>
+
+<p>Applications deployed on my Kubernetes home cluster, using ArgoCD and formerly SSO.</p>
+
+<h4>Calcom helm chart <img src="https://img.shields.io/github/stars/Pyrrha/calcom-helm?style=flat-square" alt="GitHub stars" style="vertical-align: middle;"> <img src="https://img.shields.io/github/commit-activity/t/Pyrrha/calcom-helm?style=flat-square" alt="GitHub commit activity" style="vertical-align: middle;"></h4>
+
+<p>Helm chart for Cal.com application, using a PostgreSQL database.</p>
 
 <h3>Certifications</h3>
 <p>
@@ -21,3 +24,4 @@
 
 <h3>Homelab</h3>
 
+Redaction in progress...
