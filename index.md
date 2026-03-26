@@ -1,10 +1,14 @@
 <h1>Pilot student</h1>
 
+<p>Based at Aix-les-Milles (LFMA), France.</p>
+
 <hr>
 
 <h1>Former DevOps Engineer</h1>
 
 <p>7 years in tech industry, mainly deploying cloud infrastructures.</p>
+
+<hr>
 
 <h2>Projects</h2>
 
