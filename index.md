@@ -2,35 +2,27 @@
 
 <i class="fa-solid fa-plane-circle-check"></i> Based at Aix-les-Milles (LFMA), France.
 
-## METAR
-<pre id="wx-metar" class="wx-raw" style="white-space: pre-wrap; word-break: break-word;">Loading…</pre>
-
-## TAF
-<pre id="wx-taf" class="wx-raw" style="white-space: pre-wrap; word-break: break-word;">Loading…</pre>
-
+<pre><code id="metar-lfml">Loading METAR LFML...</code></pre>
 <script>
-(function () {
-  var API = 'https://api.allorigins.win/raw?url=https://aviationweather.gov/api/data/metar?ids=LFML&hours=0&sep=true&taf=true&format=json';
-  var metarEl = document.getElementById('wx-metar');
-  var tafEl = document.getElementById('wx-taf');
-  if (!metarEl || !tafEl) return;
-  fetch(API)
-    .then(function (r) { return r.json(); })
-    .then(function (data) {
-      var row = Array.isArray(data) && data[0] ? data[0] : null;
-      if (!row) {
-        metarEl.textContent = 'No METAR data available.';
-        tafEl.textContent = 'No TAF data available.';
-        return;
-      }
-      metarEl.textContent = row.rawOb || '—';
-      tafEl.textContent = row.rawTaf || '—';
-    })
-    .catch(function () {
-      metarEl.textContent = 'Could not load METAR (network or browser restriction).';
-      tafEl.textContent = 'Could not load TAF (network or browser restriction).';
-    });
-})();
+  (function () {
+    var metarElement = document.getElementById("metar-lfml");
+    var fallbackMetar = "METAR LFML unavailable.";
+
+    fetch("https://metar.vatsim.net/LFML")
+      .then(function (response) {
+        if (!response.ok) {
+          throw new Error("HTTP " + response.status);
+        }
+        return response.text();
+      })
+      .then(function (metarText) {
+        var clean = metarText.trim();
+        metarElement.textContent = clean || fallbackMetar;
+      })
+      .catch(function () {
+        metarElement.textContent = fallbackMetar;
+      });
+  })();
 </script>
 
 ---
@@ -43,17 +35,17 @@
 
 ## <i class="fa-solid fa-wrench"></i> Projects
 
-### Home cluster
-
-<a href="https://github.com/Pyrrha/home-cluster" target="_blank"><i class="fa-brands fa-square-github"></i></a> <img src="https://img.shields.io/github/commit-activity/t/Pyrrha/home-cluster?style=flat-square" alt="GitHub commit activity" style="vertical-align: middle;">
-
-Applications deployed on my Kubernetes home cluster, using ArgoCD and formerly SSO.
-
 ### Calcom helm chart
 
-<a href="https://github.com/Pyrrha/calcom-helm" target="_blank"><i class="fa-brands fa-square-github"></i></a> <img src="https://img.shields.io/github/stars/Pyrrha/calcom-helm?style=flat-square" alt="GitHub stars" style="vertical-align: middle;"> <img src="https://img.shields.io/github/commit-activity/t/Pyrrha/calcom-helm?style=flat-square" alt="GitHub commit activity" style="vertical-align: middle;">
+<a href="https://github.com/Pyrrha/calcom-helm" target="_blank"><img src="https://img.shields.io/badge/github-repo-green?logo=Github&style=for-the-badge" alt="GitHub repository" style="vertical-align: middle;"></a> <img src="https://img.shields.io/github/commit-activity/t/Pyrrha/calcom-helm?style=for-the-badge" alt="GitHub commit activity" style="vertical-align: middle;"> <img src="https://img.shields.io/github/stars/Pyrrha/calcom-helm?style=for-the-badge&color=yellow" alt="GitHub stars" style="vertical-align: middle;"> 
 
 Helm chart for Cal.com application, using a PostgreSQL database.
+
+### Home cluster
+
+<a href="https://github.com/Pyrrha/home-cluster" target="_blank"><img src="https://img.shields.io/badge/github-repo-green?logo=Github&style=for-the-badge" alt="GitHub repository" style="vertical-align: middle;"></a> <img src="https://img.shields.io/github/commit-activity/t/Pyrrha/home-cluster?style=for-the-badge" alt="GitHub commit activity" style="vertical-align: middle;">
+
+Applications deployed on my Kubernetes home cluster, using ArgoCD and formerly SSO.
 
 ---
 
