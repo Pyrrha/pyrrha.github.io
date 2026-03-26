@@ -2,6 +2,8 @@
 
 <i class="fa-solid fa-plane-circle-check"></i> Based at Aix-les-Milles (LFMA), France.
 
+## METAR
+
 <pre><code id="metar-lfml">Loading METAR LFML...</code></pre>
 <script>
   (function () {
