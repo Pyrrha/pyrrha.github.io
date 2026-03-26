@@ -45,13 +45,13 @@
 
 ### Home cluster
 
-<a href="https://github.com/Pyrrha/home-cluster" target="_blank"><i class="fa-brands fa-github"></i></a> <img src="https://img.shields.io/github/commit-activity/t/Pyrrha/home-cluster?style=flat-square" alt="GitHub commit activity" style="vertical-align: middle;">
+<a href="https://github.com/Pyrrha/home-cluster" target="_blank"><i class="fa-brands fa-square-github"></i></a> <img src="https://img.shields.io/github/commit-activity/t/Pyrrha/home-cluster?style=flat-square" alt="GitHub commit activity" style="vertical-align: middle;">
 
 Applications deployed on my Kubernetes home cluster, using ArgoCD and formerly SSO.
 
 ### Calcom helm chart
 
-<a href="https://github.com/Pyrrha/calcom-helm" target="_blank"><i class="fa-brands fa-github"></i></a> <img src="https://img.shields.io/github/stars/Pyrrha/calcom-helm?style=flat-square" alt="GitHub stars" style="vertical-align: middle;"> <img src="https://img.shields.io/github/commit-activity/t/Pyrrha/calcom-helm?style=flat-square" alt="GitHub commit activity" style="vertical-align: middle;">
+<a href="https://github.com/Pyrrha/calcom-helm" target="_blank"><i class="fa-brands fa-square-github"></i></a> <img src="https://img.shields.io/github/stars/Pyrrha/calcom-helm?style=flat-square" alt="GitHub stars" style="vertical-align: middle;"> <img src="https://img.shields.io/github/commit-activity/t/Pyrrha/calcom-helm?style=flat-square" alt="GitHub commit activity" style="vertical-align: middle;">
 
 Helm chart for Cal.com application, using a PostgreSQL database.
 
