@@ -1,6 +1,6 @@
 <h1>Pilot student</h1>
 
-<p>Based at Aix-les-Milles (LFMA), France.</p>
+<p><i class="fa-solid fa-plane-circle-check"></i> Based at Aix-les-Milles (LFMA), France.</p>
 
 <hr>
 
@@ -10,7 +10,7 @@
 
 <hr>
 
-<h2>Projects</h2>
+<h2><i class="fa-solid fa-wrench"></i> Projects</h2>
 
 <h3>Home cluster</h3>
 
@@ -26,7 +26,7 @@
 
 <hr>
 
-<h2>Certifications</h2>
+<h2><i class="fa-solid fa-certificate"></i> Certifications</h2>
 <p>
     <a href="https://www.credly.com/badges/f594457a-f0c6-4356-b2a4-9ff5c3a45a62/public_url" target="_blank"><img src="https://images.credly.com/size/220x220/images/cd038261-9d1c-4792-bc62-3a3b5bda175c/blob" alt="Terraform Associate" width="100" height="100"></a>
     <a href="https://www.credly.com/badges/441e64d9-9f85-483d-b23a-58e0262d54d7/public_url" target="_blank"><img src="https://images.credly.com/size/220x220/images/8b8ed108-e77d-4396-ac59-2504583b9d54/cka_from_cncfsite__281_29.png" alt="Badge" width="100" height="100"></a>
@@ -36,6 +36,6 @@
 
 <hr>
 
-<h2>Homelab</h2>
+<h2><i class="fa-solid fa-house"></i> Homelab</h2>
 
 <p>Redaction in progress...</p>
