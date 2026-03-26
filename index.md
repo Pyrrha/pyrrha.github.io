@@ -10,7 +10,7 @@
 
 <script>
 (function () {
-  var API = 'https://aviationweather.gov/api/data/metar?ids=LFML&hours=0&sep=true&taf=true&format=json';
+  var API = 'https://api.allorigins.win/raw?url=https://aviationweather.gov/api/data/metar?ids=LFML&hours=0&sep=true&taf=true&format=json';
   var metarEl = document.getElementById('wx-metar');
   var tafEl = document.getElementById('wx-taf');
   if (!metarEl || !tafEl) return;
