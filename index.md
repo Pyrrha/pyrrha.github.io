@@ -2,6 +2,9 @@
 
 <p><i class="fa-solid fa-plane-circle-check"></i> Based at Aix-les-Milles (LFMA), France.</p>
 
+<a href="https://metar-taf.com/fr/metar/LFMA?station_id=LFML" id="metartaf-T6pwW6T8" style="font-size:18px; font-weight:500; color:#000; width:350px; height:278px; display:block">METAR Aix Les Milles airport</a>
+<script async defer crossorigin="anonymous" src="https://metar-taf.com/fr/embed-js/LFMA?station_id=LFML&layout=landscape&qnh=hPa&rh=rh&target=T6pwW6T8"></script>
+
 <hr>
 
 <h1>Former DevOps Engineer</h1>
